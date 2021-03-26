@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: static-dev-web
-        image: ghcr.io/thiruttikorn/static-web:dev
+        image: ghcr.io/thiruttikorn/static-web:main
         imagePullPolicy: Always
         ports:
         - containerPort: 80
